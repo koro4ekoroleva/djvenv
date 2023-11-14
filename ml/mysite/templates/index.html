@@ -7,8 +7,14 @@
 </head>
 <body>
 <ul class="mainmenu">
-    <li><a href="mysite/templates/index.html"></a>Главная</li>
-    <li><a href="mysite/templates/me.html">О разработчике</a></li>
+    <li><a href="index/"></a>Главная</li>
+    <li><a href="about_me/">О разработчике</a></li>
 </ul>
+<h1>Определение еды</h1>
+<form action="" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <p><label for="ml_photo">Загрузите фото еды: </label><input type="file" name="ml_photo" id="ml_photo"></p>
+    <p><button type="submit">Отправить</button></p>
+</form>
 </body>
 </html>
