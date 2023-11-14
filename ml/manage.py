@@ -3,6 +3,7 @@
 import os
 import sys
 
+menu = [{"name": "О разработчике", "url": "me"}]
 
 def main():
     """Run administrative tasks."""
