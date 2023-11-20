@@ -3,7 +3,7 @@ from tensorflow import keras
 from keras.models import load_model
 
 classes = ['шаурма', 'суши']
-model = load_model('food_model.h5')
+model = load_model('my_model.h5')
 # file_content =
 image = byte2image(file_content)
 
